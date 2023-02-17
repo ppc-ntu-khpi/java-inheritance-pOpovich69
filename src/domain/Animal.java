@@ -1,28 +1,43 @@
 package domain;
 
-public class Animal {
+public abstract class Animal {
 
-    protected String name;
+    protected String Name;
+    protected int Age;
+    protected float Weight;
+    public boolean WantsToEat;
 
-    protected int weight;
+    public abstract void Eat();
+    public abstract void HaveDrink();
+    public abstract void Sleep();
+    public abstract void GetRoar();
+    public abstract void Move();
 
-    public Animal() {
-        name="generic animal";
-        weight=25;
+    public void ShowInfo(){
+        System.out.println("Ім'я тварини: " + this.Name);
+        System.out.println("Вік тварини: " + this.Age);
+        System.out.println("Вага тварини: " + this.Weight);
+        System.out.println("Тварина хоче їсти?: " + this.WantsToEat);
     }
-
-    public void eat() {
-        System.out.println("Animal eating...");
+    public String GetName(){
+        return this.Name;
     }
-
-    public void speak() {
-        System.out.println("Animal speaking...");
+    public int GetAge(){
+        return this.Age;
     }
-
-    @Override
-    public String toString() {
-        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
+    public void SetAge(int age){
+        if(age > 0) {
+            this.Age = age;
+        }
+        else System.out.println("Помилка! Вік не може бути менший за 1");
     }
-
- 
+    public float GetWeight(){
+        return this.Weight;
+    }
+    public void SetWeight(float weight){
+        if(weight > 0.1f){
+            this.Weight = weight;
+        }
+        else System.out.println("Помилка! Вага не може бути менший за 0.1");
+    }
 }

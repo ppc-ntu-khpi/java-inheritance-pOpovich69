@@ -1,15 +1,17 @@
 package test;
 
-import domain.Cat;
+import domain.Dog;
 
 public class TestAnimal {
 
     public static void main(String[] args) {
-        Cat cat = new Cat("Thomas");
-        System.out.println(cat);
-        cat.hunt();
-        cat.eat();
-        cat.speak();
-        cat.play();
+        Dog dog = new Dog("Sobaka", 5, 13.5f, false);
+        dog.ShowInfo();
+        dog.Eat();
+        dog.Play();
+        dog.HaveDrink();
+        dog.Move();
+        dog.Sleep();
+        dog.GetRoar();
     }
 }
