@@ -11,16 +11,6 @@ public abstract class Animal {
     protected float Weight;
     public boolean WantsToEat;
 
-
-
-    /**
-     *
-     * Eat
-     *
-     * @param public  the public
-     * @throws ;
-    public abstract void HaveDrink(
-     */
     public abstract void Eat();
     public abstract void HaveDrink();
     public abstract void Sleep();
