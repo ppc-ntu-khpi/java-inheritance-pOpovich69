@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_dog" xml:lang="en-US">
+<title>domain.Dog Class Reference</title>
+<indexterm><primary>domain.Dog</primary></indexterm>
+<para>Inheritance diagram for domain.Dog:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_dog.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_dog_1ad1c8964368cb6ccdaf60087654fb3b80">Dog</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_dog_1abb8e30fef1f8d4ac6ed89d52d69d2340">Dog</link> (String name, int age, float weight, boolean wantsToEat)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dog_1a512965dcb746103de64a676448637de4">Play</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dog_1a6ba7e084f2b4b5e9835811d5ee6447ab">Eat</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dog_1a6b6bb9b83cc68d871fbf5b0d5978ac33">HaveDrink</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dog_1a283b71b44bfadc05d1f25fbdc48f752b">Sleep</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dog_1a2d96ef5942cf55f6021568c6bdf40f5b">GetRoar</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_dog_1a3d12d27d889cc4be831a1d37d7b6d6f6">Move</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para>abstract void <link linkend="_classdomain_1_1_animal_1ab59b05e680f07f235fbfb546dc3eb46f">Eat</link> ()</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classdomain_1_1_animal_1aadb7bccc0653cbcb25f459bb2bb6f481">HaveDrink</link> ()</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classdomain_1_1_animal_1ac9e61145c50748d7a3e08f4ea465bb94">Sleep</link> ()</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classdomain_1_1_animal_1a5e50ab6bec61e69a987d2db4f02561ca">GetRoar</link> ()</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classdomain_1_1_animal_1a0737b749a1031703c72537ceb961382a">Move</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1a6873eb055ada288a2e306c419a34cf22">ShowInfo</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1a2cc9bbc64ebc2447ac9088dfac6741fe">GetName</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdomain_1_1_animal_1acbf1d8a2a766dbcfeeded87d43d38e20">GetAge</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1a190b100e5836e64a2259dee6242a55a3">SetAge</link> (int age)</para>
+</listitem>
+            <listitem><para>float <link linkend="_classdomain_1_1_animal_1a83ef0e9bb1388e774e4343a655453c19">GetWeight</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1ad72eedacd8dc995e1d826a7ee75dee6c">SetWeight</link> (float weight)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Public Attributes inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para>boolean <link linkend="_classdomain_1_1_animal_1a1e228cb2f3f724058ee382570794d420">WantsToEat</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Protected Attributes inherited from <link linkend="_classdomain_1_1_animal">domain.Animal</link>        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1a91f6712957c95d2dc618703d7e149441">Name</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classdomain_1_1_animal_1a5a8c84e1b1f6a481c0a5bc5fdb10bb44">Age</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_classdomain_1_1_animal_1a8e72592a2e607f27bf7e9ed3b07cdc5c">Weight</link></para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para>The class Dog extends animal </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdomain_1_1_dog_1ad1c8964368cb6ccdaf60087654fb3b80"/><section>
+    <title>Dog()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Dog</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>Dog</secondary></indexterm>
+<para><computeroutput>domain.Dog.Dog ( )</computeroutput></para>
+<para>Dog </para>
+</section>
+<anchor xml:id="_classdomain_1_1_dog_1abb8e30fef1f8d4ac6ed89d52d69d2340"/><section>
+    <title>Dog()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Dog</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>Dog</secondary></indexterm>
+<para><computeroutput>domain.Dog.Dog (String name, int age, float weight, boolean wantsToEat)</computeroutput></para>
+<para>Dog</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>the name </para>
+</entry>
+                            </row>
+                            <row>
+<entry>age</entry><entry>
+<para>the age </para>
+</entry>
+                            </row>
+                            <row>
+<entry>weight</entry><entry>
+<para>the weight </para>
+</entry>
+                            </row>
+                            <row>
+<entry>wantsToEat</entry><entry>
+<para>the wants to eat </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_dog_1a6ba7e084f2b4b5e9835811d5ee6447ab"/><section>
+    <title>Eat()</title>
+<indexterm><primary>Eat</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>Eat</secondary></indexterm>
+<para><computeroutput>void domain.Dog.Eat ( )</computeroutput></para>
+<para>Eat </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1ab59b05e680f07f235fbfb546dc3eb46f">domain.Animal</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dog_1a2d96ef5942cf55f6021568c6bdf40f5b"/><section>
+    <title>GetRoar()</title>
+<indexterm><primary>GetRoar</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>GetRoar</secondary></indexterm>
+<para><computeroutput>void domain.Dog.GetRoar ( )</computeroutput></para>
+<para>Get roar </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1a5e50ab6bec61e69a987d2db4f02561ca">domain.Animal</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dog_1a6b6bb9b83cc68d871fbf5b0d5978ac33"/><section>
+    <title>HaveDrink()</title>
+<indexterm><primary>HaveDrink</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>HaveDrink</secondary></indexterm>
+<para><computeroutput>void domain.Dog.HaveDrink ( )</computeroutput></para>
+<para>Have drink </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1aadb7bccc0653cbcb25f459bb2bb6f481">domain.Animal</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dog_1a3d12d27d889cc4be831a1d37d7b6d6f6"/><section>
+    <title>Move()</title>
+<indexterm><primary>Move</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>Move</secondary></indexterm>
+<para><computeroutput>void domain.Dog.Move ( )</computeroutput></para>
+<para>Move </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1a0737b749a1031703c72537ceb961382a">domain.Animal</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_dog_1a512965dcb746103de64a676448637de4"/><section>
+    <title>Play()</title>
+<indexterm><primary>Play</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>Play</secondary></indexterm>
+<para><computeroutput>void domain.Dog.Play ( )</computeroutput></para>
+<para>Play </para>
+</section>
+<anchor xml:id="_classdomain_1_1_dog_1a283b71b44bfadc05d1f25fbdc48f752b"/><section>
+    <title>Sleep()</title>
+<indexterm><primary>Sleep</primary><secondary>domain.Dog</secondary></indexterm>
+<indexterm><primary>domain.Dog</primary><secondary>Sleep</secondary></indexterm>
+<para><computeroutput>void domain.Dog.Sleep ( )</computeroutput></para>
+<para>Sleep </para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_animal_1ac9e61145c50748d7a3e08f4ea465bb94">domain.Animal</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+E:/OOP/java-inheritance-pOpovich69/src/domain/<link linkend="__dog_8java">Dog.java</link></section>
+</section>

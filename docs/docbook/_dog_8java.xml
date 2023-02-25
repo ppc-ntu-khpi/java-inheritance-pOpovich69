@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__dog_8java" xml:lang="en-US">
+<title>E:/OOP/java-inheritance-pOpovich69/src/domain/Dog.java File Reference</title>
+<indexterm><primary>E:/OOP/java-inheritance-pOpovich69/src/domain/Dog.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classdomain_1_1_dog">domain.Dog</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacedomain">domain</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

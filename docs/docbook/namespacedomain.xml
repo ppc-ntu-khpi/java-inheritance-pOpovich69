@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedomain" xml:lang="en-US">
+<title>Package domain</title>
+<indexterm><primary>domain</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classdomain_1_1_animal">Animal</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classdomain_1_1_dog">Dog</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
